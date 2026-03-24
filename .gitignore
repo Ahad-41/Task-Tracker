@@ -1,0 +1,14 @@
+# Build binaries
+task-cli
+main
+
+# Data files
+tasks.json
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Go workspaces
+go.work
+go.work.sum
