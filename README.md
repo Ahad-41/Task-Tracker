@@ -81,6 +81,20 @@ Because everything relies on **consumer-defined interfaces** (defined locally in
 
 ---
 
+## 🚀 Getting Started
+
+### Prerequisites
+- [Go](https://go.dev/doc/install) (1.20 or later)
+
+### Clone the Repository
+To run this project locally, a user needs to clone it first:
+```bash
+git clone <repository-url>
+cd Task-Tracker
+```
+
+---
+
 ## 🛠️ How to Use (Task Tracker CLI)
 
 Ensure the application is built (`go build -o task-cli`). It can then be run from the terminal using `./task-cli`.
