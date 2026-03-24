@@ -89,7 +89,7 @@ Because everything relies on **consumer-defined interfaces** (defined locally in
 ### Clone the Repository
 To run this project locally, a user needs to clone it first:
 ```bash
-git clone <repository-url>
+git clone https://github.com/Ahad-41/Task-Tracker.git
 cd Task-Tracker
 ```
 
