@@ -1,6 +1,6 @@
 # 🏗️ Task CLI Architecture & Folder Structure Guide
 
-**Project URL:** [https://github.com/Ahad-41/Task-Tracker](https://github.com/Ahad-41/Task-Tracker)
+**Project URL:** [https://roadmap.sh/projects/task-tracker](https://roadmap.sh/projects/task-tracker)
 
 This document serves as an architectural overview of our `task-cli` Go project based on our industry standards. It explains the project's folder layout, coding patterns, and how data flow through the application.
 
