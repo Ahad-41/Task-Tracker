@@ -97,38 +97,42 @@ cd Task-Tracker
 
 ## 🛠️ How to Use (Task Tracker CLI)
 
-Ensure the application is built (`go build -o task-cli`). It can then be run from the terminal using `./task-cli`.
+To make the command available globally on your system, install it using:
+```bash
+go install
+```
+Then you can run it directly from anywhere using `task-cli`. (Alternatively, if you built it locally with `go build`, use `./task-cli`).
 
 ### Add a Task
 Adds a new task to the list.
 ```bash
-./task-cli add "Buy groceries"
+task-cli add "Buy groceries"
 ```
 
 ### Update a Task
 Updates the description of an existing task by its ID.
 ```bash
-./task-cli update 1 "Buy groceries and cook dinner"
+task-cli update 1 "Buy groceries and cook dinner"
 ```
 
 ### Delete a Task
 Removes a task from the list by its ID.
 ```bash
-./task-cli delete 1
+task-cli delete 1
 ```
 
 ### Change Task Status
 Mark a task as in-progress or done.
 ```bash
-./task-cli mark-in-progress 1
-./task-cli mark-done 1
+task-cli mark-in-progress 1
+task-cli mark-done 1
 ```
 
 ### List Tasks
 View all tasks, or filter them by their status.
 ```bash
-./task-cli list
-./task-cli list done
-./task-cli list todo
-./task-cli list in-progress
+task-cli list
+task-cli list done
+task-cli list todo
+task-cli list in-progress
 ```
